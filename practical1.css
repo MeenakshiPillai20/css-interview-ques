@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crete Round', serif;
+}
+body{
+    padding: 40px;
+    background-color: rgb(132, 222, 250);
+}
+h1{
+    color: rgb(59, 8, 8);
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h2{
+    color: rgb(59, 8, 8);
+    font-weight: bolder;
+    margin: 10px 0px;
+}
+h3{
+    color: brown;
+    font-weight: bolder;
+}
+p,pre{
+    color: rgb(116, 9, 9);
+    margin: 20px;
+}
+
+.container, .container1, .container2, .container3, .container4{
+    margin:50px 0px;
+    
+ }
+.container p{
+    background-color: blue;
+    color: white;
+}
+.container1 > p{
+    background-color: brown;
+    color: white;
+}
+
+.container2 + p{
+    background-color: chartreuse;
+    color: black;
+}
+.container3 ~ p{
+    background-color: yellow;
+    color: red;
+}
+
+a:link{
+   color: blue;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: blueviolet;
+}
+a:active{
+    color: black;
+}
+.para::first-letter{
+ color: rgb(230, 255, 4);
+}
+.para2::first-line{
+    color: white;
+}
+.para::before{
+    content: 'before';
+    background-color: blue;
+    color: white;
+}
+.para::after{
+   content: 'after';
+   background-color: brown;
+   color: white;
+}

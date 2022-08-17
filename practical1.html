@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practical1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Practical Question</h1>
+    <h3>Q15. What are CSS combinators?</h3>
+    <div class="container">
+        <h2>Descendant Selector</h2>
+        <p>para inside div name container (container p)</p>
+        <p>para inside div name container (container p)</p>
+    </div>
+    <div class="container1">
+        <h2>Child Selector</h2>
+        <p>para inside div name container1 (container1 > p)</p>
+        <p>para inside div name container1 (container1 > p)</p>
+        <section>
+            <p>This para is inside container1 but inside a section too.</p>
+        </section>
+    </div>
+
+    <div class="container2">
+        <h2>Adjacent Sibling Selector</h2>
+        <p>para inside div name container2</p>
+        <p>para inside div name container2</p>
+    </div>
+    <p>first para after div container2 close (div + p)</p>
+    <p>second para after div container2 close</p>
+
+    <div class="container3">
+        <h2>General Sibling Selector</h2>
+        <p>para inside div name container3</p>
+        <p>para inside div name container3</p>
+    </div>
+    <p> para outside div name container3 (container3 ~ p)</p>
+    <p> para outside div name container3 (container3 ~ p)</p>
+
+
+    <h3>Q16. What are pseudo selectors in CSS?</h3>
+    <div class="container4">
+        <a href="#">Unvisited Link</a>
+
+        <p class="para">Lorem ipsum dolor sit amet.</p>
+        <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aliquid perferendis at nulla! Laboriosam corrupti praesentium itaque nesciunt, exercitationem atque beatae tempore ab vel amet quidem, totam iusto sit ex ea expedita sequi laborum? Magnam officia tempora maxime vitae eveniet!</p>
+    </div>
+</body>
+</html>
