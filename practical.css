@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crete Round', serif;
+}
+body{
+    padding: 40px;
+    background-color: rgb(132, 222, 250);
+}
+h1{
+    color: rgb(59, 8, 8);
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h2{
+    color: rgb(59, 8, 8);
+    font-weight: bolder;
+    margin: 10px 0px;
+}
+h3{
+    color: brown;
+    font-weight: bolder;
+}
+p,pre{
+    color: rgb(116, 9, 9);
+    margin: 20px;
+}
+.button{
+    margin: 50px;
+}
+.link{
+    color: white;
+    padding: 12px 52px;
+    background-color: rgb(41, 133, 255);
+    text-decoration: none;
+    font-size: 32px;
+   border-radius: 10px;
+}
+.para{
+    font-family: 'DynaPuff', cursive;
+    font-size: 32px;
+    margin: 50px;
+}
+.box{
+    background-color: rgb(41, 133, 255);
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    transition: all 4s linear 0s;    
+    border-radius: 10px;
+    
+}
+.box:hover{
+    width: 400px;
+    background-color: rgb(24, 74, 145);
+}
+
+
+.box1{
+    background-color: rgb(23, 101, 245);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+.container{
+   margin: 20px 0px;
+   padding: 40px;
+   border-radius: 20px;
+}
+
+.head1{
+    font-size: 42px;
+
+
+}
+@media (max-width: 1199.98px) {
+   .container, .card{
+    background-color: rgb(41, 133, 255);
+   }
+   h1, p{
+    color:white;
+ }
+}
+@media (max-width: 821.98px) { 
+    .container, .card{
+        background-color: rgb(0, 77, 172);
+    }
+}
+@media (max-width: 575.98px) {
+    .container, .card{
+        background-color: rgb(10, 38, 65);
+    }
+  
+}
+.container-box{
+   
+    margin: 30px auto;
+    height: 230px;
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+
+}
+.car{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top:20%;
+    right: 0;
+    height: 100px;
+    width: 200px;
+    animation: moving 6s infinite linear ;
+    animation-delay: 4s;
+}
+
+  @keyframes moving{
+    0%{
+        transform: translate(0px);
+    }
+    25%{
+        transform: translate(200pxpx);
+    }
+    50%{
+        transform: translate(400px);
+    }
+    75%{
+        transform: translate(600px);
+    }
+    100%{
+        transform: translate(800px);
+    }
+  }
+  .container2{
+    position: relative;
+  }
+
+  .background{
+    height: 400px;
+    margin: 30px;
+    background-image: url(./sharadesert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -6;
+  }
+  .head2{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    padding: 40px;
+  }
+.para1{
+    position: absolute;
+    top: 30px;
+
+    padding: 40px;
+
+}
+.button1{
+    position: absolute;
+    top: 190px;
+    left: 60px;
+
+}
+.link1{
+    color: white;
+    padding: 12px 40px ;
+    background-color: rgb(41, 133, 255);
+    text-decoration: none;
+    font-size: 32px;
+   border-radius: 10px;
+}
+.header{
+    background-color: rgb(59, 59, 59);
+    height: 80px;
+    margin: 50px 0px;
+    display: flex;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin: 15px 80px;
+}
+ul{
+    list-style-type: none;
+   flex: 2;
+   display: flex;
+   justify-content:space-around;
+   font-family: 'DynaPuff', cursive;
+   color: white;
+}
+ul li{
+    margin: 30px;
+    cursor:pointer;
+}
+ul li a{
+    text-decoration: none;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 40px;
+}
+.card{
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+    padding: 10px 0px;
+    border: 2px solid black;
+}
+.button3{
+    margin: 50px;
+}
+.link3{
+    color: white;
+    padding: 12px 52px;
+    background-color: rgb(41, 133, 255);
+    text-decoration: none;
+    font-size: 32px;
+   border-radius: 10px;
+}
+@media (max-width: 820px) {
+    .button3{
+        margin: 50px 10px;
+    }
+    .link3{
+        background-color: brown;
+    }
+}
+@media (max-width: 360px) {
+    .link3{
+        background-color: rgb(16, 8, 88);
+        padding: 12px 32px;
+    }
+}
+.container4{
+    margin: 20px 0px;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    border: 2px solid black;
+ }
+.head4{
+   margin: 0px 50px;
+}
+.box2{
+    background-color: rgb(41, 133, 255);
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    transition: all 4s linear 0s;    
+    border-radius: 10px; 
+}
+.box2:hover{
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+}
+
+.test1{
+     width: 200px;
+     height: 200px;
+     background-color: rgb(41, 133, 255);
+     transition-duration: 4s;
+ }
+ .test1:hover{
+    transform: rotate(90deg);
+ }
+
+ .test2{
+     width: 200px;
+     height: 200px;
+     background-color: rgb(41, 133, 255);
+     transition-duration: 4s;
+ }
+ .test2:hover{
+    transform: skew(50deg, 50deg);
+ }
+ .container5{
+    margin: 20px 0px;
+    padding: 40px;
+    border-radius: 20px;
+   display: grid;
+   grid-template-columns: auto auto auto;
+    gap: 90px;
+    align-items: center;
+    border: 2px solid black;
+ }
